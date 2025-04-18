@@ -2,7 +2,7 @@
 /**
  * Plugin Name: My Elementor Widgets
  * Description: Prototype plugin with GitHub Updater support.
- * Version: 1.1.3
+ * Version: 1.1.5
  * Author: Your Name
  * Text Domain: my-elementor-widgets
  *
