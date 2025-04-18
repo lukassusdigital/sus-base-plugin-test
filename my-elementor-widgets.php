@@ -6,7 +6,7 @@
  * Author: Your Name
  * Text Domain: my-elementor-widgets
  *
- * GitHub Plugin URI: https://github.com/yourusername/my-elementor-widgets
+ * GitHub Plugin URI: https://github.com/lukassusdigital/sus-base-plugin-test.git
  * GitHub Branch: main
  */
 
