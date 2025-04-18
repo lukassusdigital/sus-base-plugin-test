@@ -133,6 +133,6 @@ if (!class_exists('My_Custom_GitHub_Updater')) {
 // Initialize the updater
 new My_Custom_GitHub_Updater(
     __FILE__,
-    'yourusername/your-repo-name', // Replace with your GitHub repo
+    'lukassusdigital/sus-base-plugin-test', // Replace with your GitHub repo
     MY_PLUGIN_VERSION
 );
