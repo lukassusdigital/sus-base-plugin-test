@@ -6,7 +6,7 @@
  * Author: Your Name
  * Text Domain: my-elementor-widgets
  */
-define('MY_PLUGIN_VERSION', '1.0.0');
+define('MY_PLUGIN_VERSION', '1.1.0');
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
