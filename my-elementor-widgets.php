@@ -17,6 +17,13 @@ add_shortcode('my_test', function () {
     return 'My Elementor Widgets plugin is active!';
 });
 
+add_action('admin_notices', function () {
+    $version = MY_PLUGIN_VERSION;
+    echo "<div class='notice notice-success is-dismissible'>
+        <p>My Elementor Widgets plugin version <strong>{$version}</strong> is active!</p>
+    </div>";
+});
+
 
 if (!class_exists('My_Custom_GitHub_Updater')) {
     class My_Custom_GitHub_Updater {
