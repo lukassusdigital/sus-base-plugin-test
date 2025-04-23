@@ -1,19 +1,18 @@
 <?php
 /**
- * Plugin Name: My Elementor Widgets
- * Description: Prototype plugin with GitHub Updater support.
- * Version: 1.1.5
- * Author: Your Name
- * Text Domain: my-elementor-widgets
- *
- * GitHub Plugin URI: https://github.com/lukassusdigital/sus-base-plugin-test
- * GitHub Branch: main
+ * Plugin Name:     SuS DigitalBase
+ * Plugin URI:      https://example.com/my-agency-base
+ * Description:     Basis-Elementor-Widgets und GSAP-Integrationen.
+ * Version:         1.0.9
+ * Author:          Lukas
+ * Text Domain:     sus
+ * Update URI:      https://example.com/updates/my-agency-base.json
  */
 
 if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 
-add_shortcode('my_test', function () {
+add_shortcode('sus', function () {
     return 'My Elementor Widgets plugin is active!';
 });
